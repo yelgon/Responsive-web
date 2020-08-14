@@ -28,5 +28,8 @@ const Header = styled.header`
       max-width: 100%;
     }
   }
+  @media (max-width: 991px) {
+    padding: 20px 50px;
+  }
 `;
 export default Header;
