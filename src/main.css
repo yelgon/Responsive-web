@@ -64,6 +64,9 @@ li {
   grid-template-columns: auto auto auto;
   list-style: none;
 }
+.skill-box li {
+  margin: 0 5px;
+}
 
 .banner .videoBox {
   position: relative;
