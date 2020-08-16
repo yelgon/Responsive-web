@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "./CSS/Button.js";
+import Name from "./Name.js";
 
 function GroupProject(props) {
   const [skills, setSkills] = useState(true);
@@ -60,6 +61,7 @@ function GroupProject(props) {
           </a>
         </li>
       </ul>
+      <Name />
     </div>
   );
 }

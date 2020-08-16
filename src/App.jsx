@@ -4,7 +4,6 @@ import GroupProject from "./GroupProject.jsx";
 import SocialApp from "./SocialApp.jsx";
 import Education from "./Education.jsx";
 import Experience from "./Experience.jsx";
-import Name from "./Name.js";
 
 import NavBar from "./NavBar.jsx";
 
@@ -43,7 +42,6 @@ function App() {
       <Route exact={true} path="/socialApp" render={renderSocialApp} />
       <Route exact={true} path="/education" render={renderEducation} />
       <Route exact={true} path="/experience" render={renderExperience} />
-      <Name />
     </BrowserRouter>
   );
 }

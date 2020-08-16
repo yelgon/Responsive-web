@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   div {
     padding: 5px;
   }
-  @media (max-height: 745px) {
+  @media (max-width: 991px) {
     opacity: 0;
   }
 `;

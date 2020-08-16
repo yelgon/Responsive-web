@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "./CSS/Button.js";
+import Name from "./Name.js";
 
 function SocialApp(props) {
   const [skills, setSkills] = useState(true);
@@ -25,9 +26,9 @@ function SocialApp(props) {
           {skills && <Button onClick={showingSkills}>Skills</Button>}
           {!skills && <Button onClick={hidingSkills}>Hide</Button>}
           {!skills && (
-            <ul style={{ color: "white", paddingLeft: "20px" }}>
+            <ul style={{ color: "white" }}>
               <li>React/Hooks</li>
-              <li>React/Redux</li>
+              <li>Redux</li>
               <li>Styled-component</li>
               <li>Node.JS</li>
               <li>Express</li>
@@ -60,6 +61,7 @@ function SocialApp(props) {
           </a>
         </li>
       </ul>
+      <Name />
     </div>
   );
 }

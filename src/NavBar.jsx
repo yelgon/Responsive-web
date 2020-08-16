@@ -50,7 +50,7 @@ const MenuBox = styled.div`
   @media (max-width: 991px) {
     font-size: 18px;
     right: 50px;
-    top: 60px;
+    top: 75px;
     div {
       padding: 5px;
     }
