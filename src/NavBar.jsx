@@ -65,7 +65,7 @@ function NavBar() {
     }
     return setMenu(true);
   };
-  console.log(menu);
+
   return (
     <Header>
       <div className="logo">Full-stack Developer</div>
